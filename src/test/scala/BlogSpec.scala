@@ -5,12 +5,10 @@ import org.scalatest.{FlatSpec, MustMatchers}
 import org.scalatest.selenium.WebBrowser
 import org.scalatestplus.play.{OneBrowserPerSuite, OneServerPerSuite}
 
-class BlogSpec extends FlatSpec with MustMatchers
-  with OneServerPerSuite
-  with OneBrowserPerSuite {
+class BlogSpec extends FlatSpec with MustMatchers with WebBrowser {
 
   System.setProperty("webdriver.gecko.driver","/home/odendm/tmp/geckodriver")
-  override implicit val webDriver: WebDriver = new FirefoxDriver()
+  implicit val webDriver: WebDriver = new FirefoxDriver()
 
 
 
