@@ -22,7 +22,7 @@ libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.0.5" % "test",
 //  "org.scalatest" %% "scalatest" % "2.1.7" % "test",
   "org.scalatestplus" %% "play" % "1.4.0" % "test",
-  "com.codeborne" % "phantomjsdriver" % "1.3.0" % "test",
+//  "com.codeborne" % "phantomjsdriver" % "1.3.0" % "test",
   "org.scala-js" %% "scalajs-env-selenium" % "0.2.0",
   "org.seleniumhq.selenium" % "selenium-htmlunit-driver" % "2.29.0" % "test",
   "org.seleniumhq.selenium" % "selenium-java" % "3.8.0" % "test",
